@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/noureddine-as/PFE_2018/fpga-zynq/zedboard/zedboard_rocketchip_ZynqFPGAConfig/zedboard_rocketchip_ZynqFPGAConfig.sdk/FSBL/Debug/FSBL.elf
+	/home/noureddine-as/PFE_2018/fpga-zynq/zedboard/zedboard_rocketchip_ZynqFPGAConfig/zedboard_rocketchip_ZynqFPGAConfig.runs/impl_1/rocketchip_wrapper.bit
+	/home/noureddine-as/PFE_2018/fpga-zynq/zedboard/soft_build/u-boot.elf
+}
