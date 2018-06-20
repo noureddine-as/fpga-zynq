@@ -3,7 +3,7 @@
 
 #include "fesvr/tsi.h"
 #include "blkdev.h"
-#include "device.h"
+#include "fesvr/device.h"
 #include "switch.h"
 #include <stdint.h>
 

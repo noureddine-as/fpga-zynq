@@ -1,0 +1,14 @@
+#Installation location
+export RISCV=$(pwd)/riscv
+
+#Top level rocket-chip repository
+export TOP=$(pwd)
+
+#So we can use the toolchain easily
+export PATH=$PATH:$RISCV/bin
+
+export MAKEFLAGS="$MAKEFLAGS -j4"
+
+#Automated commands
+alias goto_riscv="cd $RISCV"
+alias pull_recursive="git pull --recurse-submodules"

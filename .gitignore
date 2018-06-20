@@ -16,8 +16,9 @@ zedboard/src/verilog/rocketchip_wrapper.v
 zedboard/src/verilog/Top.*.v
 zedboard/src/verilog/AsyncResetReg.v
 zedboard/src/verilog/plusarg_reader.v
-zedboard/deliver_output
+zedboard/deliver_output*
 zedboard/soft_build
+zedboard/fpga-images-zedboard
 
 zybo/zybo_rocketchip_*
 zybo/src/tcl/zybo_rocketchip_*.tcl
@@ -38,3 +39,7 @@ zc706/src/verilog/AsyncResetReg.v
 zc706/src/verilog/plusarg_reader.v
 zc706/deliver_output
 zc706/soft_build
+
+riscv
+share-center/received
+share-center/sent
